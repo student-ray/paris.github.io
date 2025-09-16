@@ -1,0 +1,134 @@
+/* ESTILIZAÇÃO DA ESTRUTURA */
+
+/*ESTILIZAÇÃO DO MENU*/
+
+#menu{
+    background: url(imagens/logotipo.png) no-repeat;
+    text-align: right;
+    padding-top: 85px;
+    padding-right: 23px;
+    padding-left: 25px;
+}
+#menu p{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+#menu p a{
+    font-weight: normal;
+    color: #71000d;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-right: 15px;
+    padding-left: 14px;
+    border-top: 2px solid #14316B;
+}
+#menu p a:hover{
+    background-color: #d3dbed;
+}
+
+#titulos{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#conteudo{
+    text-align: justify;
+    margin-left: 240px;
+    padding-right: 25px;
+}
+
+body{
+    background-color: rgb(251, 242, 230);
+    background-image: url(imagens/back-paris.jpg);
+    background-repeat: repeat-x; 
+    margin-top: 0px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body, td, th{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+h1{
+    font-size: 45px;
+    color: #14316B;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+h2{
+    font-size: 20px;
+    background: #9eb6e2;
+    color: #fff;
+    padding: 2px;
+    margin-top: 0px;
+    font-weight: 600;
+}
+h3{
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+    border-bottom: 2px solid #14316B;
+}
+
+#conteudo ul{
+    padding-left: 25px;
+}
+#conteudo ul li{
+    padding-bottom: 10px;
+    list-style: url(imagens/lista-losango.gif);
+}
+
+#conteudo p img{
+    padding: 7px;
+    margin-right: 9px;
+    margin-bottom: 6px;
+    border: 1px solid #990000;
+}
+table{
+    width: 600px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+caption{
+    font-weight: bolder;
+    background: #14316B;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 4px;
+}
+th{
+    background: #990000;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+}
+td{
+    background: #9eb6e2;
+    padding: 3px;
+    border: solid .1em #222222;
+    text-align: center;
+}
+
+#box{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: bolder;
+    color: #14316B;
+    background: url(imagens/back-box.gif);
+    padding: 30px 60px;
+    width: 480px;
+    border: thin dashed #14316B;
+}
+
+.destaque{
+    font-size: 15px;
+    color: #900;
+    background: #ffffff;
+    padding: 3px;
+}
